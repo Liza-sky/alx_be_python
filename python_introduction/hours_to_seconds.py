@@ -4,7 +4,7 @@ hour = 60
 
 minute = 60 
 
-seconds = hours * 60 * 60
+seconds = hours * 3600
  
 print(seconds)
 

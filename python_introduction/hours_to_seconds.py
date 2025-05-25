@@ -1,4 +1,5 @@
-hours =2
+hours = 2
+
 hour = 60
 
 minute = 60 

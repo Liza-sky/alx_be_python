@@ -1,6 +1,6 @@
 length = 10
 width = 5 
 
-Area = length * width
+area = length * width
 
-print(Area)
+print(area)

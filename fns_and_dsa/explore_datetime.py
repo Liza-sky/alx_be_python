@@ -18,13 +18,14 @@ def calculate_future_date(days_ahead):
     return  formatted_future_date
 
 def main():
-    display_current_datetime()
+    current_date = display_current_datetime()
     
     try:
-        days = int(input("Enter the number of days to add to the current-date date: " ))
-        calculate_future_date(days)
+        days_input = input("Enter the number of days to add to the current date: " )
+        days_to_add = int(days_input)
+        calculate_future_date(current_date, days_to_add)
     except ValueError:
-        print("Invalid input. Please enter an integer value.")
+        print("Invalid input. Please enter an integer number of days.")
 
 if __name__ == "__main__":
     main()
